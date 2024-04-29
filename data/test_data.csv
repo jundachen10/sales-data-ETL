@@ -1,0 +1,20 @@
+BizDate,OrdNumber,OrdType,OrdItemNumber,ItemName,SizeName,StyleName,GroupName,Item Price,Check Total
+00:00.0,1,Delivery,1,Cheese Pizza,10in,HandToss,Pizza,11.75,21.75
+00:00.0,2,Pick Up,1,Large Fries,None,None,Wings and Fries,8,8.75
+00:00.0,3,Pick Up,2,Italian,Whole,None,Hoagies-Wraps-Wedgies,13,52.94
+00:00.0,3,Pick Up,3,Vegan Italian,Half,None,Hoagies-Wraps-Wedgies,8,52.94
+00:00.0,3,Pick Up,1,Cheese Pizza,12in,HandToss,Pizza,14,52.94
+00:00.0,4,Delivery,1,Cheese Pizza,16in,HandToss,Pizza,19.11,19.11
+00:00.0,6,Dine In,2,Cheese Pizza,Slice,HandToss,Pizza,3.16,7.32
+00:00.0,6,Dine In,1,Cheese Pizza,Slice,HandToss,Pizza,3.16,7.32
+00:00.0,8,Delivery,1,Cheese Pizza,14in,HandToss,Pizza,15.5,36.5
+00:00.0,9,To Go,1,Cheese Pizza,16in,HandToss,Pizza,17.75,43.23
+00:00.0,9,To Go,2,Spinach Feta Pizza,16in,HandToss,Pizza,22,43.23
+00:00.0,10,Web Delivery,3,12pc Seitan Wings,None,None,Wings and Fries,12.5,43.98
+00:00.0,10,Web Delivery,2,Cheese Pizza,16in,HandToss,Pizza,15,43.98
+00:00.0,10,Web Delivery,1,Buffalo Seitan,Whole,None,Hoagies-Wraps-Wedgies,13,43.98
+00:00.0,13,To Go,1,Italian,Half,None,Hoagies-Wraps-Wedgies,7,19.94
+00:00.0,15,Delivery,3,12pc Wings,None,None,Wings and Fries,19,41
+00:00.0,16,To Go,1,Cheese Pizza,16in,HandToss,Pizza,31.5,31.5
+00:00.0,18,Web Pickup,1,Cheese Pizza,14in,HandToss,Pizza,15.5,34.85
+00:00.0,18,Web Pickup,4,Buffalo Chicken Rolls,None,None,Appetizers,11.6,34.85
