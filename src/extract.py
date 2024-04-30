@@ -11,7 +11,8 @@ def extract_data_from_csv(file_path):
         print(data.head())
 
         # Optional: Perform additional processing here
-        return data
+        return data #this is the frame object called data
+    
     except Exception as e:
         print(f"An error occurred while reading the CSV file: {e}")
         return None
