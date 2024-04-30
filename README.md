@@ -7,7 +7,7 @@ This project is designed to build an ETL (Extract, Transform, Load) pipeline for
 - **Data Extraction**: Implement a Python script to read and validate data from CSV files.
 
 ### Prerequisites
-- Python 3.8 or higher
+- Python 3.12 or higher
 - pip (Python package installer)
 
 ### Setup Environment
