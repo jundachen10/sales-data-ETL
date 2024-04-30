@@ -1,5 +1,6 @@
 import os
 from extract import extract_data_from_csv
+from transform import filter_and_find_popular_item
 
 def main():
     """
@@ -11,9 +12,11 @@ def main():
     
     file_path = get_data_file_path()
     data = extract_data_from_csv(file_path)
+    popular_item = filter_and_find_popular_item(data)
+    print(f"Most popular Dine In item is: {popular_item}")
     
     if data is not None:
-        print(data.head())
+        print(data.head(20))
     else:
         print("error")
         
