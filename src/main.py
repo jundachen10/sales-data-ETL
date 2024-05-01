@@ -16,7 +16,7 @@ def main():
     print(f"Most popular Dine In item is: {popular_item}")
     
     if data is not None:
-        print(data.head(20))
+        print(data.head(10))
     else:
         print("error")
         
@@ -29,7 +29,7 @@ def get_data_file_path():
     """
     current_dir = os.path.dirname(__file__)
     project_root = os.path.dirname(current_dir)
-    file_path = os.path.join(project_root, 'data', 'test_data.csv')
+    file_path = os.path.join(project_root, 'data', 'raw', 'order detail for year.csv')
     return file_path
    
 if __name__ == "__main__":
