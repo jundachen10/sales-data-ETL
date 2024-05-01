@@ -15,7 +15,8 @@ def find_top_three_items(data, order_type="Dine In"):
         filtered_data = data[data["OrdType"] == order_type]
         if filtered_data.empty:
             return "No orders found for type '{}'.".format(order_type)
-        return filtered_data["ItemName"].value_counts().head(3)
+        #below is the top most popular items, chance head argument
+        return filtered_data["ItemName"].value_counts().head(20)
     except KeyError:
         return "KeyError: Check if your DataFrame contains 'OrdType' and 'ItemName' columns."
     except Exception as e:
