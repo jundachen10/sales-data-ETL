@@ -17,3 +17,10 @@ git clone https://github.com/jundachen10/sales-data-ETL.git
 python3 -m venv {name of env}
 3. Activiate the virtual environment
 source {name of env}/bin/activate
+
+### Loading data csv
+1. CSV file should be placed into the /data/raw folder
+2. In main.py enter your CSV filename 
+    file_path = os.path.join(project_root, "data", "raw", "Cleaned Order Details for the year.csv")
+### Running program
+1. python3 main.py
